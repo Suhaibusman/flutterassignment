@@ -113,4 +113,34 @@ if(expenses.containsKey(val)){
 expenses[val] = 5000.0;
 }
 print(expenses);
+
+//q#8
+//  remove all false values from below list by using removeWhere or retainWhere property.
+// sir question 8 me error arha tha boolean ka isi wajaa se map ke bd jo typle string or booleann set ki thi woh hata di
+List<Map> usersEligibility = [
+    {'name': 'John', 'eligible': true},
+    {'name': 'Alice', 'eligible': false},
+    {'name': 'Mike', 'eligible': true},
+    {'name': 'Sarah', 'eligible': true},
+    {'name': 'Tom', 'eligible': false},
+  ];
+usersEligibility.removeWhere((user) => user['eligible']==false);
+print(usersEligibility);
+
+// Q.9: Given a list of integers, write a dart code that returns the maximum value from the list.
+List numbb = [7,87,3,41,46,23];
+int greatest = numbb[0];
+for(int i=0;i<numbb.length;i++){
+if(numbb[i]>greatest){
+greatest=numbb[i];
+}
+}
+print("greatest number in list is $greatest");
+
+//Q.10: Write a Dart code that takes in a list of strings and removes any duplicate elements, returning a new list without duplicates. The order of elements in the new list should be the same as in the original list.
+List stuname =["suhaib","shakeeb","usman","suhaib","anas","babar","anas"];
+List newstunamelist =stuname.toSet().toList();
+print(stuname);
+print(newstunamelist);
+
 }
