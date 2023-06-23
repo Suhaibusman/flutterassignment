@@ -225,4 +225,36 @@ if(quantity>=0){
   print("product is out of stock");
 }
 
+
+//q#20
+// Create a map named "car" with the following key-value pairs: "brand" as "Toyota", "color" as "Red", "isSedan" as true. Write Dart code to check if the car is a sedan and red in color. Print "Match" if both conditions are true, otherwise print "No match".
+
+Map car ={
+  "brand": "Toyota", 
+  "color" : "Red", 
+  "isSedan" :true
+};
+var issedan =car["isSedan"];
+var color =car["color"];
+if (issedan==true && color == "Red") {
+  print("Match");
+} else {
+    print("No Match");
+}
+
+//q#21
+//Given a map representing a user with keys "name", "isAdmin", and "isActive", write Dart code to check if the user is an active admin. If the user is both an admin and active, print "Active admin", otherwise print "Not an active admin".
+
+Map user={"name":"suhaib", "isAdmin":true, "isActive":true};
+var username = user["name"];
+var isadmin = user["isAdmin"];
+var isactive =user["isActive"];
+
+if (isadmin==true &&isactive==true) {
+  print("$username is an Active Admin");
+} else {
+  print("$username is Not an Active Admin");
+}
+
+
 }
