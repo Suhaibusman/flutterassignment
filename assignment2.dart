@@ -212,5 +212,17 @@ if (isstudent == true && age >=18) {
    print("$personname is not eligible");
 }
 
+//q#19
+// Given a map representing a product with keys "name", "price", and "quantity", write Dart code to check if the product is in stock. If the quantity is greater than 0, print "In stock", otherwise print "Out of stock".
+Map product ={"name":"suhaib", 
+"price":1000, 
+"quantity":10};
+
+var quantity =product["quantity"];
+if(quantity>=0){
+  print("product is in stock");
+}else{
+  print("product is out of stock");
+}
 
 }
