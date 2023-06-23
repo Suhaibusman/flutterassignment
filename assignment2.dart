@@ -255,6 +255,16 @@ if (isadmin==true &&isactive==true) {
 } else {
   print("$username is Not an Active Admin");
 }
-
-
+//Q.22: Given a map representing a shopping cart with keys as product names and values as quantities, write Dart code to check if a product named "Apple" exists in the cart. Print "Product found" if it exists, otherwise print "Product not found"
+Map shopping ={
+"productnames" :"Apple",
+"values" : 100,
+"quantities":9
+};
+var productnames =shopping["productnames"];
+if (productnames == "Apple") {
+  print("Product Found");
+} else {
+  print("Product not Found");
+}
 }
