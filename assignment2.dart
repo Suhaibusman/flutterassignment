@@ -143,4 +143,20 @@ List newstunamelist =stuname.toSet().toList();
 print(stuname);
 print(newstunamelist);
 
+//q#11
+//Write a Dart code that takes in a list and an integer n as parameters. The program should print a new list containing the first n elements from the original list.
+  List<int> originalList = [1, 2, 3, 4, 5, 6];
+ int n =4; // means ke 4 length tk print hogi
+
+ List newlist =originalList.sublist(0,n);
+ print(newlist);
+
+
+
+
+//Q.12: Write a Dart code that takes in a list of strings and prints a new list with the elements in reverse order. The original list should remain unchanged.
+
+List originalname =["suhaib","shakeeb","amash","salman","babar","anas"];
+List reversedlist =originalname.reversed.toList();
+print(reversedlist);
 }
