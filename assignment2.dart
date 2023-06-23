@@ -3,6 +3,7 @@
 //ID:- 127101
 
 
+
 void main(){
 
 //Create a list of names and print all names using list.
@@ -174,4 +175,10 @@ List sortedlist = List.from(numbber);
 sortedlist.sort();
 
 print(sortedlist);
+//Q#15
+
+//implement a Dart code that uses the where() method to filter out negative numbers from a list of integers. The program should take in the original list as a parameter and print a new list containing only the positive numbers.
+List <int>allnumber=[-1,-3,94,-1,1,3];
+List <int>positivenumber =allnumber.where((number) => number >=0).toList();
+print(positivenumber);
 }
