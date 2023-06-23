@@ -88,23 +88,6 @@ Map world ={
 
   }
 };
-
-
-
-// String countrykey ="PAKISTAN";
-// if(world.containsKey(countrykey)){
-
-// Map country =world[countrykey];
-// String capitalCity =country["Capitalcity"];
-// String currency =country["Currency"];
-// String language = country["language"];
-// print(capitalCity);
-// print(currency);
-// print(language);
-// }else{
-//   print("country  key not found");
-// }
-
 String countrykey ="PAKISTAN";
 if(world.containsKey(countrykey)){
   Map country =world[countrykey];
@@ -116,5 +99,18 @@ print("$countrykey CapitalCity is $capitalCity");
 print("$countrykey Currency is $capitalCity");
 print("$countrykey Language is $language");
 }
-
+//q#7
+// Check if "fri" exist in expanses; if exist change it's value to 5000.0 otherwise add 'fri' to expenses and set its value to 5000.0 then print expenses.
+Map<String, double> expenses = {
+  'sun': 3000.0,
+  'mon': 3000.0,
+  'tue': 3234.0,
+};
+var val = "fri";
+if(expenses.containsKey(val)){
+  expenses[val] = 5000.0;
+}else{
+expenses[val] = 5000.0;
+}
+print(expenses);
 }
