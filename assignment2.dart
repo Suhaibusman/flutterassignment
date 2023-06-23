@@ -4,6 +4,8 @@
 
 
 
+import 'dart:ffi';
+
 void main(){
 
 //Create a list of names and print all names using list.
@@ -190,5 +192,25 @@ List<int> numberss =[1,2,3,4,5,6,7,8,9,10];
 List <int> evennumber =numberss.where((num) => num % 2 == 0).toList();
 
 print(evennumber);
+//q#17
+//Given a list of integers, write a Dart code that uses the map() method to create a new list with each value squared. The program should take in the original list as a parameter and print the new list.
+List <int> squaredlist = numberss.map((e) => e*e).toList();
+print(squaredlist);
+
+//q#18
+//Create a map named "person" with the following key-value pairs: "name" as "John", "age" as 25, "isStudent" as true. Write a Dart code to check if the person is both a student and over 18 years old. Print "Eligible" if both conditions are true, otherwise print "Not eligible".
+Map person ={"name": "John",
+ "age" : 25, 
+ "isStudent":true
+};
+String personname = person["name"];
+bool isstudent = person["isStudent"];
+int age = person["age"];
+if (isstudent == true && age >=18) {
+  print("$personname is eligible");
+} else {
+   print("$personname is not eligible");
+}
+
 
 }
