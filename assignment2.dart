@@ -88,6 +88,33 @@ Map world ={
 
   }
 };
-print(world.containsKey("PAKISTAN"));
+
+
+
+// String countrykey ="PAKISTAN";
+// if(world.containsKey(countrykey)){
+
+// Map country =world[countrykey];
+// String capitalCity =country["Capitalcity"];
+// String currency =country["Currency"];
+// String language = country["language"];
+// print(capitalCity);
+// print(currency);
+// print(language);
+// }else{
+//   print("country  key not found");
+// }
+
+String countrykey ="PAKISTAN";
+if(world.containsKey(countrykey)){
+  Map country =world[countrykey];
+  // print(country);
+  String capitalCity =country["Capitalcity"];
+  String language = country["language"];
+  String currency = country["Currency"];
+print("$countrykey CapitalCity is $capitalCity");
+print("$countrykey Currency is $capitalCity");
+print("$countrykey Language is $language");
+}
 
 }
