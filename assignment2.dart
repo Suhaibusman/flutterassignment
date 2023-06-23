@@ -159,4 +159,11 @@ print(newstunamelist);
 List originalname =["suhaib","shakeeb","amash","salman","babar","anas"];
 List reversedlist =originalname.reversed.toList();
 print(reversedlist);
+
+
+// Q.13: Implement a code that takes in a list of integers and returns a new list containing only the unique elements from the original list. The order of elements in the new list should be the same as in the original list.
+
+List numbber = [7,87,3,41,46,23,5,7,122,87,3];
+List uniquenumber =numbber.toSet().toList();
+print(uniquenumber);
 }
