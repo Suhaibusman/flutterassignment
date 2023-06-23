@@ -166,4 +166,12 @@ print(reversedlist);
 List numbber = [7,87,3,41,46,23,5,7,122,87,3];
 List uniquenumber =numbber.toSet().toList();
 print(uniquenumber);
+
+
+//Q.14: Write a Dart code that takes in a list of integers and prints a new list with the elements sorted in ascending order. The original list should remain unchanged
+
+List sortedlist = List.from(numbber);
+sortedlist.sort();
+
+print(sortedlist);
 }
