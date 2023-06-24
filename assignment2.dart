@@ -67,6 +67,9 @@ Map name ={
 "phone4":0992022
 
 };
+
+
+
 List keywithlength4 = name.keys.where((key) => key.length==4).toList();
 
 print("keys with length 4: $keywithlength4");
@@ -99,7 +102,7 @@ if(world.containsKey(countrykey)){
   String language = country["language"];
   String currency = country["Currency"];
 print("$countrykey CapitalCity is $capitalCity");
-print("$countrykey Currency is $capitalCity");
+print("$countrykey Currency is $currency");
 print("$countrykey Language is $language");
 }
 //q#7
