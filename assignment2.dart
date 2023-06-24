@@ -75,8 +75,8 @@ List keywithlength4 = name.keys.where((key) => key.length==4).toList();
 print("keys with length 4: $keywithlength4");
  // sir please check krlijyega in 2 ko un comment krke woh to hogaya ke jis key ki length 4 he woh list me print hojae
  //but mene try kia ke jiski value ki length 4 ho woh list me print hojae but error arha
-// var valuewithlength4 = name.values.where((element) => element.length==4).toList();  
- // print("Keys with length 4: $valuewithlength4");
+//  var valuewithlength4 = name.values.where((values) => values.length==4);  
+  // print("Keys with length 4: $valuewithlength4");
 
 //Create Map variable name world then inside it create countries Map, Key will be the name country & country value will have another map having capitalCity, currency and language to it. by using any country key print all the value of Capital & Currency.
 
@@ -94,6 +94,8 @@ Map world ={
 
   }
 };
+
+// print(world["PAKISTAN"]);
 String countrykey ="PAKISTAN";
 if(world.containsKey(countrykey)){
   Map country =world[countrykey];
