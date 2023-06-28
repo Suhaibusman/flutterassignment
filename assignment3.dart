@@ -116,6 +116,17 @@ print("factorial of $temp is $factorial");
 // Example:
 // Input: [3, 9, 1, 6, 4, 2, 8, 5, 7]
 // Output: Largest element: 9
+
+List inpNumb =[3, 9, 1, 6, 4, 2, 8, 5, 7];
+int largestnumb =inpNumb[0];
+for(int i =0;i<inpNumb.length;i++){
+if(inpNumb[i]>largestnumb){
+largestnumb =inpNumb[i];
+}
+}
+print("the largest number in a list is $largestnumb");
+
+
 }
 
 
