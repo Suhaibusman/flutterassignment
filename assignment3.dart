@@ -127,6 +127,24 @@ largestnumb =inpNumb[i];
 print("the largest number in a list is $largestnumb");
 
 
+//q#7
+// Write a program that prints the multiplication table of a given number
+// using a for loop.
+// Example:
+// Input: 5
+// Output:
+// 5 x 1 = 5
+// 5 x 2 = 10
+// 5 x 3 = 15
+// ...
+// 5 x 10 = 50
+
+
+int tbnumb =5;
+for(int i =1;i<=10;i++){
+  print("$tbnumb x $i = ${tbnumb*i}");
+}
+
 }
 
 
