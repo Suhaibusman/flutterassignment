@@ -82,8 +82,40 @@ input --;
 }
 print("factorial of $temp is $factorial");
 
-//q#5
+//q#5 // copied answer
+// Write a program that calculates the sum of all the digits in a given
+// number using a while loop.
+// Example:
+// Input: 12345
+// Output: Sum of digits: 15
+  // Get the input number
+  int number = 12345;
 
+  // Initialize the sum variable
+  int sum = 0;
+
+  // Calculate the sum of the digits using a while loop
+  while (number > 0) {
+    // Get the current digit
+    int digit = number % 10;
+
+    // Add the digit to the sum
+    sum += digit;
+
+    // Divide the number by 10 to remove the current digit
+    number = number ~/ 10;
+  }
+
+  // Print the sum
+  print('Sum of digits: $sum');
+
+
+//q#6
+// Implement a code that finds the largest element in a list using a for
+// loop.
+// Example:
+// Input: [3, 9, 1, 6, 4, 2, 8, 5, 7]
+// Output: Largest element: 9
 }
 
 
