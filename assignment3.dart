@@ -248,5 +248,35 @@ print(numb);
 
 }
 
+//q#14//copied
+// Write a program to make such a pattern like a right angle triangle with
+// the number increased by 1 using loop..
+// The pattern like :
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
 
+  for (int i = 1; i <= rows; i++) {
+    List<int> numbers = [];
+    for (int j = 1; j <= i; j++) {
+      numbers.add(j);
+    }
+    print(numbers.join(" "));
+  }
+
+
+
+
+
+
+
+
+  
 }
+
+
+
+
+
+
