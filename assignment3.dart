@@ -47,5 +47,29 @@ print(oddnumber);
     f1 = f2;
     f2 = temp + f2;
   }
+//q#3
+//Implement a code that checks whether a given number is prime or not.
+//Example:
+//Input: 17
+//Output: 17 is a prime number.
+
+int inputnumb =1;
+bool isprime =true;
+for(int i =2; i<inputnumb;i++){
+  if(inputnumb % i ==0){
+    isprime =false;
+    break;
+  }
+}
+if(isprime){
+print("$inputnumb is a prime number");
+
+}else{
+  print("$inputnumb is not a prime number");
+}
+
+
 
 }
+
+
