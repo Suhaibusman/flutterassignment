@@ -2,6 +2,8 @@
 //MUHAMMAD SUHAIB USMAN
 //ID:- 127101
 
+import 'dart:io';
+
 void main(){
 //question 1
 //Write a program that takes a list of numbers as input and prints the
@@ -264,15 +266,48 @@ print(numb);
     }
     print(numbers.join(" "));
   }
+ //q#15
+//  Write a program to make a pyramid pattern with numbers increased by
+
+//     1
+//    2 3
+//   4 5 6
+//  7 8 9 10
 
 
 
 
 
 
+//q#16
+// Write a program to make such a pattern as a pyramid with an asterisk.
+// *
+// * *
+// * * *
+// * * * *
 
 
-  
+
+
+
+
+//q#17
+// Write a program that asks the user for their email and password. If the
+// email and password match a predefined set of credentials, print "User
+// login successful." Otherwise, keep asking for the email and password
+// until the correct credentials are provided.
+
+String email = "suhaibusman54@gmail.com";
+String password ="Suhaibusman123";
+
+var inputemail = stdin.readLineSync();
+var inptpassword = stdin.readLineSync();
+if(inputemail == email && inptpassword == password){
+print("user login successful");
+
+}else{
+  ("email and password not matched");
+}
 }
 
 
