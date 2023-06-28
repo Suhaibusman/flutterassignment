@@ -176,11 +176,37 @@ if(inpString == revString){
 // Number is : 3 and cube of the 3 is :27
 // Number is : 4 and cube of the 4 is :64
 // Number is : 5 and cube of the 5 is :125
-//  int cubenumb =5;
+  
  for(int i=1;i<=5;i++){
       print("Number is : $i and cube of the $i is :${i*i*i}");
  }
 
+// or
+int cubenumb =5;
+print("Number is : $cubenumb and cube of the $cubenumb is :${cubenumb*cubenumb*cubenumb}");
+
+//q#11
+
+// Write a program to display a pattern like a right angle triangle using an
+// asterisk using loop.
+// The pattern like :
+// *
+// **
+// ***
+// ****
+
+  int rows = 5;
+for(int i =1 ;i<=rows ;i++){
+String stars ="";
+for(int j=1;j<=i;j++){
+  stars += "*";
+   
+  }
+
+   print(stars);
 }
 
 
+
+
+}
