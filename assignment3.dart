@@ -63,12 +63,26 @@ for(int i =2; i<inputnumb;i++){
 }
 if(isprime){
 print("$inputnumb is a prime number");
-
 }else{
   print("$inputnumb is not a prime number");
 }
+//q#4
+//Implement a code that finds the factorial of a number using a while
+// loop or for loop.
+// Example:
+// Input: 5
+// Output: Factorial of 5 is 120
 
+int input = 5;
+int factorial =1;
+int temp = input;
+while(input >0){
+factorial *= input;
+input --;
+}
+print("factorial of $temp is $factorial");
 
+//q#5
 
 }
 
