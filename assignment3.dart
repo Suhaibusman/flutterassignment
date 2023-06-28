@@ -144,7 +144,22 @@ int tbnumb =5;
 for(int i =1;i<=10;i++){
   print("$tbnumb x $i = ${tbnumb*i}");
 }
+//q#9
 
+// Implement a function that checks if a given string is a palindrome.
+// Example:
+// Input: "radar"
+// Output: "radar" is a palindrome.
+
+ String inpString = "radar";
+ String revString = inpString.split("").reversed.join();
+
+if(inpString == revString){
+
+  print("$inpString is a palindrome");
+}else{
+  print("$inpString is not a palindrome");
+}
 }
 
 
