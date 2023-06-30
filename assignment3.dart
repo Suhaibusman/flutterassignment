@@ -297,17 +297,82 @@ print(numb);
 // login successful." Otherwise, keep asking for the email and password
 // until the correct credentials are provided.
 
-String email = "suhaibusman54@gmail.com";
-String password ="Suhaibusman123";
 
-var inputemail = stdin.readLineSync();
-var inptpassword = stdin.readLineSync();
-if(inputemail == email && inptpassword == password){
-print("user login successful");
 
-}else{
-  ("email and password not matched");
+
+
+//please un comment krke checck kijyega
+// String email = "suhaibusman54@gmail.com";
+// String password ="Suhaibusman123";
+ 
+// var inputemail = stdin.readLineSync();
+// var inptpassword = stdin.readLineSync();
+// if(inputemail == email && inptpassword == password){
+// print("user login successful");
+
+// }else{
+//   ("email and password not matched");
+// }
+
+
+//q#18
+
+// Write a program that asks the user for their email and password. You
+// are given a list of predefined user credentials (email and password
+// combinations). If the entered email and password match any of the
+// credentials in the list, print "User login successful." Otherwise, keep
+// asking for the email and password until the correct credentials are
+// provided.
+
+
+// List email =["suhaibusman54@gmail.com","suhaibusman99@gmail.com"];
+// List password =["admin","123abc"];
+
+// print("enter email");
+// var inputemail1 = stdin.readLineSync()!;
+// print("enter password");
+//  var inptpassword1 = stdin.readLineSync()!;
+
+// if(inputemail1 == email && inptpassword1 == password){
+// print("user login successful");
+
+// }else{
+//   ("email and password not matched");
+// }
+
+
+
+
+//q#19
+// Write a program that takes a list of numbers as input and prints the
+// numbers greater than 5 using a for loop and if-else condition.
+
+ List<int> listnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  // Iterate over the list of numbers
+  for (int number in listnumbers) {
+    // Check if the number is greater than 5
+    if (number > 5) {
+      // Print the number
+      print(number);
+    }
+  }
+
+
+//q#20
+
+
+
+// Write a program that counts the number of vowels in a given string
+// using a for loop and if-else condition.
+
+
+List vowelss =["a","e","i","u","o","s"];
+
+for (var vowels in vowelss) {
+  
 }
+
 }
 
 
